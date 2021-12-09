@@ -1,0 +1,233 @@
+.m-icon {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+}
+
+
+/* icon menu */
+
+.m-icon-menu {
+    background-position: -424px -86px;
+}
+
+
+/* icon item navigation */
+
+.navigation-content .navigation-item:focus .m-icon-item-1 {
+    background-position: -30px -1585px !important;
+}
+
+.m-icon-item-1 {
+    background-position: -30px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-2 {
+    background-position: -73px -1585px !important;
+}
+
+.m-icon-item-2 {
+    background-position: -73px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-3 {
+    background-position: -117px -1585px !important;
+}
+
+.m-icon-item-3 {
+    background-position: -117px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-4 {
+    background-position: -161px -1585px !important;
+}
+
+.m-icon-item-4 {
+    background-position: -161px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-5 {
+    background-position: -204px -1585px !important;
+}
+
+.m-icon-item-5 {
+    background-position: -204px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-6 {
+    background-position: -249px -1585px !important;
+}
+
+.m-icon-item-6 {
+    background-position: -249px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-7 {
+    background-position: -291px -1585px !important;
+}
+
+.m-icon-item-7 {
+    background-position: -291px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-8 {
+    background-position: -336px -1585px !important;
+}
+
+.m-icon-item-8 {
+    background-position: -336px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-9 {
+    background-position: -378px -1587px !important;
+}
+
+.m-icon-item-9 {
+    background-position: -378px -1630px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-10 {
+    background-position: -423px -1587px !important;
+}
+
+.m-icon-item-10 {
+    background-position: -423px -1630px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-11 {
+    background-position: -467px -1585px !important;
+}
+
+.m-icon-item-11 {
+    background-position: -467px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-12 {
+    background-position: -510px -1585px !important;
+}
+
+.m-icon-item-12 {
+    background-position: -510px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-13 {
+    background-position: -423px -1659px !important;
+}
+
+.m-icon-item-13 {
+    background-position: -378px -1659px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-14 {
+    background-position: -547px -1585px !important;
+}
+
+.m-icon-item-14 {
+    background-position: -547px -1628px;
+}
+
+.navigation-content .navigation-item:focus .m-icon-item-15 {
+    background-position: -248px -1664px !important;
+}
+
+.m-icon-item-15 {
+    background-position: -204px -1664px;
+}
+
+
+/*========================= icon header =============================*/
+
+
+/* icon toggle */
+
+.m-icon-toggle {
+    background-position: -843px -30px;
+}
+
+
+/* icon notify */
+
+.m-icon-notify {
+    background-position: -786px -30px;
+}
+
+
+/* icon img */
+
+.m-icon-img {
+    background-position: -352px -895px;
+}
+
+
+/* icon down */
+
+.m-icon-down {
+    background-position: -1076px -32px;
+}
+
+
+/* ===========================Icon filter của phần content=================================================== */
+
+.m-icon-load {
+    background-position: -418px -201px;
+}
+
+.m-icon-load:hover {
+    background-position: -1091px -87px;
+}
+
+
+/*=========================== ICON INPUT =============================== */
+
+
+/* icon search */
+
+.m-icon-input {
+    background-position: -992px -360px;
+}
+
+
+/* icon checkbox */
+
+input[type=checkbox]:checked.m-icon-checkbox {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -1224px -360px;
+}
+
+
+/* ============================ICON CUA DIALOG=========================================== */
+
+.m-icon-help {
+    background-position: -89px -144px;
+}
+
+.m-icon-close {
+    background-position: -144px -144px;
+}
+
+
+/* icon down delete */
+
+.m-icon-down-delete {
+    background-position: -892px -360px;
+}
+
+
+/* icon combobox */
+
+.m-icon-dropdown {
+    background-position: -553px -352px;
+}
+
+
+/* icon cảnh báo khi xóa */
+
+.m-icon-warning {
+    background-position: -592px -456px;
+}
+
+
+/* icon select */
+
+.m-icon-dropdown-select {
+    background-position: -560px -359px;
+}

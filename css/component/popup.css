@@ -1,0 +1,68 @@
+/* dialog thông báo xóa */
+
+.m-popup {
+    display: none;
+}
+
+.modal-popup {
+    z-index: 1004 !important;
+}
+
+.popup {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 2000;
+    width: 444px !important;
+    top: calc(50% - 93.5px) !important;
+    left: calc(50% - 222px) !important;
+    border-radius: 2px;
+}
+
+.icon-warning {
+    width: 48px;
+    height: 48px;
+}
+
+.popup-content {
+    padding: 32px 32px 0 32px;
+}
+
+.popup-content div:first-child {
+    display: flex;
+}
+
+.popup-content .messenger-warning {
+    width: 316px;
+    height: 36px;
+    padding: 12px 0 0 16px;
+    margin-bottom: 32px;
+}
+
+.popup-content .mess-line {
+    height: 1px;
+    background: #b8bcc3;
+    margin-bottom: 20px;
+}
+
+
+/* phần bottom popup */
+
+.popup-bottom {
+    position: relative;
+    height: 34px;
+    padding: 0 32px 20px 32px;
+}
+
+.popup-bottom,
+.popup-bottom>div {
+    display: flex;
+}
+
+.popup-bottom .popup-bot-right {
+    position: absolute;
+    right: 32px;
+}
+
+.popup-bottom .popup-bot-right>div {
+    padding: 0 9.75px;
+}

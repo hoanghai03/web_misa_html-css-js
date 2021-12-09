@@ -1,0 +1,97 @@
+.mcombobox {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.mcombobox input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mcombobox input:focus~button {
+    border-color: #019160;
+    color: #019160;
+}
+
+.mcombobox button {
+    position: absolute;
+    right: 1px;
+    width: 30px;
+    height: 30px;
+    top: 1px;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+.mcombobox button:hover {
+    background-color: #f8f8f8;
+}
+
+.mcombobox .m-combobox-data {
+    display: none;
+    position: absolute;
+    top: 34px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.mcombobox .m-combobox-item {
+    height: 32px;
+    width: calc(100% - 100px);
+    line-height: 32px;
+    padding: 0 10px;
+    /* align-items: center; */
+    display: flex;
+    /* padding-left: 34px; */
+}
+
+.cb-table {
+    display: flex;
+}
+
+.cb-table .cb-table-left {
+    height: 32px;
+    width: 91.42px;
+    line-height: 32px;
+    padding: 0 10px;
+    font-family: notosans semibold;
+    background-color: #eceef1;
+}
+
+.cb-table .cb-table-right {
+    height: 32px;
+    width: calc(100% - 111.42px);
+    line-height: 32px;
+    padding: 0 10px;
+    font-family: notosans semibold;
+    background-color: #eceef1;
+}
+
+.cb-item {
+    display: flex;
+}
+
+.item-code {
+    width: 70px;
+    height: 32px;
+    padding: 0 10px 0 20px;
+    line-height: 32px;
+}
+
+.cb-item:hover .item-code,
+.cb-item:hover .m-combobox-item {
+    background-color: #eceef1 !important;
+    color: rgb(6, 247, 6);
+    cursor: pointer;
+}
+
+.m-combobox-item-hover {
+    background-color: #eceef1 !important;
+    color: rgb(6, 247, 6);
+}

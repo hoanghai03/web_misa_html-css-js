@@ -1,0 +1,114 @@
+/* css phần navigation */
+
+.navigation {
+    width: 178.73px;
+    height: 100vh;
+    float: left;
+}
+
+
+/* navigation header */
+
+.navigation .navigation-header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #38393d;
+}
+
+.navigation .navigation-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navigation .nav-header-logo {
+    background-image: url(https://actappg2.misacdn.net/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 96px;
+    cursor: pointer;
+}
+
+
+/* navigation content */
+
+.navigation-content {
+    width: 100%;
+    height: calc(100vh - 48px);
+    padding-top: 14px;
+    background-color: #38393d;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.navigation-content .navigation-item {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navigation-content .navigation-item:hover {
+    background: #515355;
+}
+
+.navigation-content .navigation-item:focus {
+    background: #777a7c;
+    font-family: notosans bold;
+    outline: none;
+}
+
+.navigation-content .nav-item-icon {
+    display: flex;
+    width: 24px;
+    height: 42px;
+    margin-right: 8px;
+    margin-left: 14px;
+    align-items: center;
+}
+
+.within-nav-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.navigation-content .navigation-item .nav-item-text {
+    height: 42px;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+
+/* class hiển thị màu xanh khi được focus */
+
+.bg-focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 42px;
+    background-color: #2ca01c;
+}
+
+
+/* scroll navigation */
+
+div.navigation-content::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #f1f1f1;
+    max-height: 300px;
+}
+
+div.navigation-content::-webkit-scrollbar-thumb {
+    background-color: #d4d7dc;
+}
+
+div.navigation-content::-webkit-scrollbar-thumb:hover {
+    background-color: #7b7d80;
+}

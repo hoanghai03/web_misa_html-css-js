@@ -1,0 +1,90 @@
+/* paging bar */
+
+.paging-bar {
+    display: flex;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 12px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.paging-bar .paging-text {
+    white-space: nowrap;
+    flex: 1;
+}
+
+.paging-bar select {
+    margin-right: 20px;
+}
+
+
+/* paging */
+
+.paging {
+    display: flex;
+}
+
+.select {
+    white-space: nowrap;
+}
+
+.p-left {
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.p-right {
+    margin-left: 13px;
+    cursor: pointer;
+    margin-right: 42px;
+}
+
+.paging .paging-number {
+    display: flex;
+    cursor: pointer;
+}
+
+.paging .page-index {
+    padding: 0 6.5px;
+}
+
+
+/* css text Trước và Sau */
+
+.color-text {
+    opacity: .5;
+}
+
+.border-index {
+    border: 1px solid #c7c7c7;
+    font-family: notosans bold;
+}
+
+
+/* hiển thị data select */
+
+.show {
+    display: block !important;
+}
+
+
+/* focus vào data select */
+
+.focus-item {
+    color: #fff !important;
+    background-color: #2ca01c !important;
+}
+
+
+/* rotate icon */
+
+.rotate-icon {
+    transform: rotate(180deg);
+    transition: transform .15s linear;
+}

@@ -1,0 +1,47 @@
+/* button màu xanh */
+
+.m-btn {
+    font-family: notosans semibold;
+    height: 34px;
+    background-color: #2ca01c;
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.m-btn:hover {
+    background-color: #41a533;
+}
+
+.m-btn:focus {
+    background-color: #41a533;
+}
+
+
+/* second button */
+
+.m-second-btn {
+    font-family: notosans semibold;
+    height: 34px;
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+    padding: 6px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+}
+
+.m-second-btn:hover {
+    background-color: #b8bac4;
+}
+
+.m-second-btn:focus {
+    background-color: #b8bac4;
+}

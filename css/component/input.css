@@ -1,0 +1,47 @@
+/* input */
+
+.block-input {
+    position: relative;
+    width: 240px;
+}
+
+.m-input {
+    padding: 0 12px 0 10px;
+    height: 32px;
+    padding-left: 10px;
+    color: inherit;
+    box-sizing: border-box;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    outline: none;
+    color: inherit;
+    width: 100%;
+}
+
+.m-input::placeholder {
+    font-family: notosans italic;
+}
+
+.m-input:hover {
+    box-shadow: 0 0 2px #babec5;
+}
+
+.m-input:focus {
+    border-color: #2ca01c;
+}
+
+.icon-input {
+    position: absolute;
+    top: 8px;
+    right: 10.75px;
+    width: 16px;
+    height: 16px;
+    padding-right: 3px;
+}
+
+
+/* thông báo dữ liệu null */
+
+.input-warning {
+    border-color: red !important;
+}

@@ -1,0 +1,25 @@
+.loading-data {
+    display: none;
+}
+
+.m-loading {
+    position: absolute;
+    background-image: url(../../content/loading.svg);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2000;
+    top: calc(50vh - 24px);
+    left: calc(50% - 24px);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

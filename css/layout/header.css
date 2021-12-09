@@ -1,0 +1,73 @@
+/* css phần header của trang */
+
+.header {
+    height: 48px;
+    width: calc(100% - 178.73px);
+    align-items: center;
+    display: flex;
+    float: left;
+    background-color: #ffffff;
+}
+
+
+/* phần trái header */
+
+.header .header-left {
+    display: flex;
+    flex: 1;
+}
+
+.header .header-left .icon-toggle {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .header-left select {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: notosans semibold;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+
+/* Phần header bên phải */
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+    padding-right: 14px;
+}
+
+.header-right .icon-notify {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-right .icon-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.header-right .text-name {
+    font-size: 14px;
+    font-family: notosans semibold;
+    margin-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header-right .icon-down {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
